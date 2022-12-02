@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Photography Site</title>
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header">
+            <div class = "nav-section">
+                <div class = "brand-and-navBtn">
+                    <span class = "brand-name">
+                        CAPTURE.time
+                    </span>
+                    <span class = "navBtn flex">
+                        <i class = "fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <!-- navigation menu -->
+                <nav class = "top-nav">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "gallery.html">Gallery</a></li>
+                        <li><a href = "blog.html" >Blog</a></li>
+                        <li><a href = "contact.html" class = "active">Contact</a></li>
+                    </ul>
+                </nav>
+                <span class = "search-icon">
+                    <i class = "fas fa-search"></i>
+                </span>
+            </div>
+
+            <div class = "wrapper">
+                <div class = "cards-container">
+                    <!-- single card -->
+                    <div class = "card">
+                        <div class = "card-wrapper">
+                            <div class = "front-card">
+                                <!-- image here -->
+                                <div>
+                                    <h2>CAPTURE.time</h2>
+                                    <p>Managing Director</p>
+                                </div>
+                            </div>
+                            <div class = "rear-card">
+                                <p>“If You Change the Way You Look at Things, the Things You Look at Will Change.”
+                                    Success Comes from Delegating, Risk-Taking, and Having a Good Team.
+                                </p>
+                                <div class = "about-info">
+                                    <img src = "images/perso.webp" alt = "about img">
+                                    <div>
+                                        <h2>CAPTURE.time</h2>
+                                        <p>Managing Director</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of singe card -->
+
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "#"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#"><i class = "fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#"><i class = "fab fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- main -->
+        <section class = "section-five">
+            <div class = "container">
+                <div class = "contact-top">
+                    <h3>CONTACT ME</h3>
+                    <p>For any help please contact us or locate us at our headquarters.</p>
+                </div>
+
+                <div class = "contact-middle">
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-map-signs"></i>
+                        </span>
+                        <span>Address</span>
+                        <p>kenya, Tharaka Nithi, Chuka Town</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-phone"></i>
+                        </span>
+                        <span>Contact Number</span>
+                        <p>0113-156-433</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-paper-plane"></i>
+                        </span>
+                        <span>Email Address</span>
+                        <p>capturetime54@gmail.com</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-globe"></i>
+                        </span>
+                        <span>Website</span>
+                        <p>https://capture-time.github.io/</p>
+                    </div>
+                </div>
+
+                <div class = "contact-bottom">
+                    <form class = "form">
+                        <input type = "text" placeholder="Your Name">
+                        <input type = "email" placeholder="Your Email">
+                        <input type = "text" placeholder="Subject">
+                        <textarea rows = "9" placeholder="Message"></textarea>
+                        <input type = "submit" class = "btn" value = "Send Message">
+                    </form>
+
+                    <!-- Map -->
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.03023163473!2d37.63109172596752!3d-0.32589733478208405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1827b87d15133c4b%3A0x989bec815b0252c5!2sChuka!5e0!3m2!1sen!2ske!4v1669981552689!5m2!1sen!2ske" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of main -->
+
+
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container container">
+                <div>
+                    <h2>CAPTURE.time</h2>
+                    <p>"If you can see it, you can shoot it."</p>
+                </div>
+                <div>
+                    <h3>Free Subscription!</h3>
+                    <p>Subscribe with us to get the latest update.</p>
+
+                    <div class = "subs">
+                        <i class = "fas fa-envelope"></i>
+                        <input type = "email" id = "email" placeholder="Email Address">
+                        <button type = "submit">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; Copyright CAPTURE.time  @2023</p>
+        </footer>
+        <!-- end of footer -->
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
